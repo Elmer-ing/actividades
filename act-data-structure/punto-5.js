@@ -56,7 +56,7 @@ console.table(listaContactos);
     Añadir el segundo, cuarto y quinto elemento de listaContactos despues del cuarto elemento de listaContactos
 */
 
-listaContactos.splice(4,0,listaContactos2[4],listaContactos2[3],listaContactos2[2]);
+listaContactos.splice(4,0,listaContactos2[4],listaContactos2[3],listaContactos2[1]);
 console.log(`Add 3 items despues del 4to item \n\n`);
 console.table(listaContactos);
 
