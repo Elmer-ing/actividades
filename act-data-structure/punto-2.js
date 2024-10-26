@@ -21,6 +21,8 @@ console.table(listTareas);
 
 
 //Paso 3
+listTareas.reverse();
 listTareas.shift();
+listTareas.reverse();
 console.table(`Eliminacion de elemento con shift \n\n →`);
 console.table(listTareas);
